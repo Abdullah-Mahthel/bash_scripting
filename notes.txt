@@ -1,0 +1,34 @@
+These are some notes about bash script:
+
+-Hello World > hello.txt // this will write Hello world to the hello.txt file BUT 
+    when you write the same command with different message this will over write the presvious message
+
+
+-Hello World >> hello.txt // this will write the same message and when you run the same command 
+this will APPEND the following message
+
+						
+-wc -w < hello.txt // this command count how many words in the file 
+
+-cat << EFO // this command allow you to write until you write EOF "End of file"
+
+-wc -w <<< "Hello there wordcount"  // this command count the string in double quotes
+-Look at the following bash script :
+#!/usr/bin/bash
+
+if   [ ${1,,} = abady ]; then
+         echo "oh you are the boss , Welcome"
+elif [ ${1,,} = help ]; then
+         echo " just enter ur name .."
+
+else 
+         echo " l dont know who r u but your not the boss"
+
+fi         
+
+l try to write my first name with capital 'A' but it refuese to show the proper result
+l dont know why :/
+
+this example talk about if and else statements 
+-To excute the above code => ./nameofthefile.sh abady => the output should be "u r the boss"
+ ./nameofthefile.sh help => "just enter ur name " ..etc
