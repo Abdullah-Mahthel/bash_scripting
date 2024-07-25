@@ -32,3 +32,5 @@ l dont know why :/
 this example talk about if and else statements 
 -To excute the above code => ./nameofthefile.sh abady => the output should be "u r the boss"
  ./nameofthefile.sh help => "just enter ur name " ..etc
+Hello there
+hi

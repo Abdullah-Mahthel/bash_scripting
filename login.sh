@@ -8,6 +8,6 @@ case ${1,,} in
         echo " just enter ur name"
         ;;
    *)
-        echo " u r not the boss enter valid username"      
+        echo " u r not the boss enter valid usernamee"      
 
       esac
