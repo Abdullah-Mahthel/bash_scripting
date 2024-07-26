@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 case ${1,,} in 
-  abady | adminstrator)
+  abady | administrator)
         echo " Hello , u r the boss"
         ;;
   help)

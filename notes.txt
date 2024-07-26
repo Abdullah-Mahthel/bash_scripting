@@ -32,5 +32,30 @@ l dont know why :/
 this example talk about if and else statements 
 -To excute the above code => ./nameofthefile.sh abady => the output should be "u r the boss"
  ./nameofthefile.sh help => "just enter ur name " ..etc
-Hello there
-hi
+
+# when making a list or an array you write the variable name 
+then = equal sign then () open brackets and write indices without the
+comma separation , no comma needed here 
+# if you write echo $list_name then the first element or index will
+echoed by default
+#if you want the whole list to be echoed you have to write
+echo ${list_name[@]} @ means the whole elements or you can specify 
+which index you want to echo like ${list_name[1]}
+
+#To use for loop this is the command:
+for item in ${list_name[@]};do echo -n $item | wc -c; done
+
+this will loop through the whole list and echo elements 
+-n means ignore the new line
+wc  means word count 
+-c means count characters in file
+| the pipe line is very powerful feature which can do multiple commands 
+
+for example :
+if l write this command : ls -l | grep ".txt"
+This command means list the content of the current directory in long
+format THEN the output of ls -l will filter the results to show ONLY
+".txt" files 
+
+## YOU CAN DO MULTIPLE COMMAND USING | PIPELINE
+
